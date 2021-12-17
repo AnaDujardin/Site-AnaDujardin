@@ -55,12 +55,16 @@ body{
     font-family: Agency;
     background-color: #040405;
 }
+main{
+    min-height: 1618px;
+}
 
 .titulo-h2{
     display: flex;
     justify-content: center;
-    color: #3c3f43;
+    color: #8a8f95;
     padding: 20px;
+    margin-top: 40px;
     font-size: 2em;
     letter-spacing: .3rem;
     align-items: center;
@@ -87,11 +91,33 @@ body{
     margin: 5px;
     object-fit: cover;
 }
-.box-img{
-    width: 585px;
+.edit-web{
+    width: 600px;
     height: 180px;
-    margin: 5px;
+    margin: 9px;
+    display: flex;
+    
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.edit-web img{
+    
+    width: 600px;
+    height: 180px;
+    
     object-fit: cover;
 }
+.display-ed-web{
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
 
+.fundo-grad-footer{
+    background: linear-gradient(180deg, #040405 0%, #3c3f43 100%);
+}
 
