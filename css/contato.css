@@ -1,10 +1,17 @@
+@font-face {
+    font-family: Agency;
+    src: url(../Fontes/OPTIAgency-Gothic.otf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 .contato-section{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     
-    /* min-height: 100px; */
-    /* height: calc(100vh - 172px); */
+    min-height: 100px; 
+     height: calc(100vh - 172px);
 }
 /* .content-body{
     height: max-content;
@@ -68,7 +75,7 @@ label{
 }
 
 #botao-contato{
-    margin-top: 8%;
+    margin-top: 3%;
     width: 20%;
     font-size: 1.1em;
     font-family: 'Assistant', sans-serif;
@@ -83,4 +90,16 @@ label{
 #botao-contato:hover{
     cursor: pointer;
     opacity: 1;
+}
+
+.conteudo-titulo{
+    color: #8a8f95;
+    font-size: 2em;
+    letter-spacing: .2rem;
+}
+
+.conteudo-paragrafo{
+    color: #eaeaeb;
+    font-size: 1em;
+    letter-spacing: .2rem;
 }
